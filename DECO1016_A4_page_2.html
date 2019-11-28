@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="DECO1016_A4_style.css">
+        <title>form bank</title>  
+        <link rel="shortcut icon" type="image/png" href="/A4 - Web Prototype/DECO1016_A4/favicons/favicon-16.png"/>
+    </head>     
+<body>
+    <div class="flex-container-column">
+        <section class="headerInput">
+            <h2>Let's get started</h2>
+            <h3>Contact Information</h3>
+        </section>
+    </div>
+
+    <div class="flex-container-column">
+        <div class="infoForms" >
+            <form>
+                <article class="inputText">
+                        email address*:
+                        <input class="infoInput" type="emailA" name ="email" placeholder="chunkylover53@aol.com" required>
+                </article>
+
+                <article class="inputText">
+                    phone number*:
+                    <input class="infoInput" type="tel" name ="phone" placeholder="+61*** *** ***" value="+61" maxlength="12" required><br>
+                    <sub class="input">We'll SMS you a 6-digit verification code to confirm your number </sub>
+                </article>
+
+                <article class="inputText">
+                        verification code:
+                        <input class="infoVerif" type="verif" name ="verif1" placeholder="*" maxlength="1">
+                        <input class="infoVerif" type="verif" name ="verif2" placeholder="*" maxlength="1">
+                        <input class="infoVerif" type="verif" name ="verif3" placeholder="*" maxlength="1">
+                        <input class="infoVerif" type="verif" name ="verif4" placeholder="*" maxlength="1">
+                        <input class="infoVerif" type="verif" name ="verif5" placeholder="*" maxlength="1">
+                        <input class="infoVerif" type="verif" name ="verif6" placeholder="*" maxlength="1">
+                </article>
+            </form>
+        </div>
+    </div>
+
+<div class="flex-container-form">
+        <div>
+            <form>
+                    <button class="buttonSmall" type="submit" formaction="DECO1016_A4_page_3.html">next</button>
+                </form>
+        </div>
+    
+        <div class="containerProgress">
+                <ul class="progressbar">
+                    <li></li>
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+            </ul>
+            <p class="warning"><strong>*required</strong></p>
+        </div>
+    </div>
+</body>
+</html> 

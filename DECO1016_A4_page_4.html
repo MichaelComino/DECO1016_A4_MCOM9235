@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="DECO1016_A4_style.css">
+        <title>form bank</title>  
+        <link rel="shortcut icon" type="image/png" href="/A4 - Web Prototype/DECO1016_A4/favicons/favicon-16.png"/>
+    </head>
+<body>
+<div class="flex-container-column">
+        <section class="headerInput">
+            <h2>Step Three</h2>
+            <h3>Identity Verification</h3>
+            <h4>You must provide at least two forms of legal identication</h4>
+        </section>
+</div>
+
+<div class="flex-container-column">
+    <div>
+        <details>
+            <summary>drivers license</summary>
+            <div class="flex-details-row">
+                <div>
+                    <form>
+                        <article class="inputText">
+                            licence number:
+                            <input class="infoInput" type="numberA" name ="Licence" placeholder="Licence No." maxlength="9">
+                        </article>
+                        <article class="inputText">
+                            state:
+                            <select class="infoDropdown" placeholder="State">
+                                    <option id="ACT">ACT</option>
+                                    <option id="NSW">NSW</option>
+                                    <option id="NT">NT</option>
+                                    <option id="QLD">QLD</option>
+                                    <option id="SA">SA</option>
+                                    <option id="TAS">TAS</option>
+                                    <option id="VIC">VIC</option>
+                                    <option id="WA">WA</option>
+                            </select>
+                        </article>
+                    </form>
+                </div>
+                <div>
+                    <img class="card" src="Licence.png" alt="Licence">
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <div>
+        <details>
+            <summary>passport</summary>
+            <div class="flex-details-row">
+                <div>
+                    <form>
+                        <article class="inputText">
+                            Document Number:
+                            <input class="infoInput" type="numberA" name ="Passport" placeholder="Document No." maxlength="8">
+                            </article> 
+                    </form>
+                </div>
+                <div>
+                    <img class="card" src="Passport.png" alt="Licence">'
+                </div>
+        </details>
+    </div>
+
+    <div>
+        <details>
+            <summary>medicare</summary>
+            <div class="flex-details-row">
+                <div>
+                    <form>
+                        <article class="inputText">
+                            card number:
+                            <input class="infoInput" type="name" name ="medicareCard" placeholder="Card No." maxlength="10"><br>
+                        </article>
+
+                        <article class="inputText">
+                            name:
+                            <input class="infoInput" type="name" name ="medicareName" placeholder="Name"><br>
+                            <sub>(as shown on card)</sub>
+                        </article>
+
+                        <article class="inputText">
+                            position on card:
+                            <input class="infoInput" type="number" name ="cardPosition" maxlength="1"><br>
+                        </article>
+
+                        <article class="inputText">
+                            valid to:
+                        <input class="infoInput" type="date" placeholder="MM/YYYY">
+                        </article>
+                    </form>
+                </div>
+                <div>
+                    <img class="card" src="Medicare.png" alt="Licence">
+                </div>
+        </details>
+    </div>
+</div>
+<div class="flex-container-form">
+    <div>
+        <form>
+            <button class="buttonSmall" type="submit" formaction="DECO1016_A4_page_5.html">next</button>
+        </form>
+    </div>
+
+    <div class="containerProgress">
+            <ul class="progressbar">
+                <li></li>
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+        </ul>
+        <p class="warning"><strong>*required</strong></p>
+    </div>
+</div>
+
+
+</body>
+</html> 

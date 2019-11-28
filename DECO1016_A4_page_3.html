@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="DECO1016_A4_style.css">
+        <title>form bank</title>  
+        <link rel="shortcut icon" type="image/png" href="/A4 - Web Prototype/DECO1016_A4/favicons/favicon-16.png"/>
+    </head> 
+<body>
+    <div class="flex-container-column">
+        <section class="headerInput">
+            <h2>Step Two</h2>
+            <h3>Personal Information</h3>
+        </section>
+    </div>
+    
+    <div class="flex-container-row">
+        <div class="infoForms">
+            <form>
+                <article class="inputTextL">
+                    Given name*:
+                    <input class="infoInput" type="name" name ="fName" placeholder="Given Name" required><br>
+                </article>
+
+                <article class="inputTextL">
+                    Middle Name:
+                    <input class="infoInput" type="name" name ="mName" placeholder="Middle Name" required><br>
+                </article>
+
+                <article class="inputTextL">
+                    Surname*:
+                    <input class="infoInput" type="name" name ="Surname" placeholder="Surname" required>
+                </article>
+
+                <article class="inputTextL">
+                        Gender*:
+                    <select class="infoDropdown">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Unspecified</option>
+                    </select>
+                </article>
+            </form>
+        </div>
+
+        <div >
+            <form>
+                <article class="inputTextL">
+                    D.O.B*:
+                    <input class="infoDate" type="date" name="bday">
+                </article>
+
+                <article class="inputTextL">
+                    Address*: 
+                        <input class="infoInput" type="text" name ="Line1" placeholder="Line 1" ><br>
+                </article>
+                <article class="inputTextL">
+                        <input class="infoInput" type="text" name ="Line2" placeholder="Line 2 (Optional)"><br>
+                </article>
+                <article class="inputTextL">
+                    <input class="infoZIP" type="ZIP" name ="ZIP" placeholder="ZIP" maxlength="4">
+                    <input class="infoInput" type="city" name ="City" placeholder="City">
+                    <select class="infoDropdown placeholder="State">
+                        <option id="ACT">ACT</option>
+                        <option id="NSW">NSW</option>
+                        <option id="NT">NT</option>
+                        <option id="QLD">QLD</option>
+                        <option id="SA">SA</option>
+                        <option id="TAS">TAS</option>
+                        <option id="VIC">VIC</option>
+                        <option id="WA">WA</option>
+                    </select>
+                </article>
+            </form>
+        </div>
+    </div>
+
+<div class="flex-container-form">
+    <div>
+        <form>
+            <button class="buttonSmall" type="submit" formaction="DECO1016_A4_page_4.html">next</button>
+        </form>
+    </div>
+
+    <div class="containerProgress">
+            <ul class="progressbar">
+                <li></li>
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+        </ul>
+        <p class="warning"><strong>*required</strong></p>
+    </div>
+</div>
+</body>
+</html> 
